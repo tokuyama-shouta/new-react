@@ -1,4 +1,6 @@
-const Article = (props) => {
+import React from 'react';
+
+const Articl = (props) => {
   return (
     <div>
       <h2>{props.title}</h2>
@@ -7,4 +9,4 @@ const Article = (props) => {
   );
 };
 
-export default Article;
+export default Articl;
