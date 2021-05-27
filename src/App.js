@@ -12,33 +12,63 @@ import Articl from "./components/Articl";
 // }
 // testScope('function');
 
-let mutableText = 'let変更前';
-mutableText = 'let変更後';
-console.log(mutableText);
+// let mutableText = 'let変更前';
+// mutableText = 'let変更後';
+// console.log(mutableText);
 
-const immutableText = 'const変更前';
-console.log(immutableText);
+// const immutableText = 'const変更前';
+// console.log(immutableText);
 
-const mutableArray = [1,2,3];
-mutableArray.push(4)
-console.log(mutableArray);
+// const mutableArray = [1,2,3];
+// mutableArray.push(4)
+// console.log(mutableArray);
 
-const mutableObject = {id: 'hoge', value: 'fuga'}
-mutableObject['name'] = 'bar';
-console.log(mutableObject);
+// const mutableObject = {id: 'hoge', value: 'fuga'}
+// mutableObject['name'] = 'bar';
+// console.log(mutableObject);
 
-function nameFunc(message) {
-  console.log(message);
+// function nameFunc(message) {
+//   console.log(message);
   
-}
-const arrowFunc = (message) => {
-  console.log(message);
-}
-const oneLineArrowFunc = (message) => console.log(message);
+// }
+// const arrowFunc = (message) => {
+//   console.log(message);
+// }
+// const oneLineArrowFunc = (message) => console.log(message);
 
-nameFunc('これは名前付き関数です');
-arrowFunc('これはアロー関数です');
-oneLineArrowFunc('これは一行で書いたアロー関数です');
+// nameFunc('これは名前付き関数です');
+// arrowFunc('これはアロー関数です');
+// oneLineArrowFunc('これは一行で書いたアロー関数です');
+
+const array = [1,2,4,8];
+const resultArray = array.map(x => x * 2)
+console.log(resultArray);
+
+const obj = {
+  "hoge":{text: "fuga"},
+  "foo":{text: "bar"},
+  "fiz":{text: "buzz"},
+};
+
+const objectArray = Object.Keys(object).map(key => {
+  const value = object[key]
+  value['id'] = key
+  console.log(value)
+  return value
+})
+console.log(objectArray);
+
+const objectArray = [
+  {id: 'hoge', text: 'fuga'},
+  {id: 'foo', text: 'bar'},
+  {id: 'fiz', text: 'buzz'}
+];
+
+const result = objectArray.filter(object => {
+  return object.id === 'hoge'
+});
+console.log(resule[0].text);
+
 
 
 
