@@ -40,34 +40,44 @@ import Articl from "./components/Articl";
 // arrowFunc('これはアロー関数です');
 // oneLineArrowFunc('これは一行で書いたアロー関数です');
 
-const array = [1,2,4,8];
-const resultArray = array.map(x => x * 2)
-console.log(resultArray);
+// const array = [1,2,4,8];
+// const resultArray = array.map(x => x * 2)
+// console.log(resultArray);
 
-const obj = {
-  "hoge":{text: "fuga"},
-  "foo":{text: "bar"},
-  "fiz":{text: "buzz"},
-};
+// const obj = {
+//   "hoge":{text: "fuga"},
+//   "foo":{text: "bar"},
+//   "fiz":{text: "buzz"},
+// };
 
-const objectArray = Object.Keys(object).map(key => {
-  const value = object[key]
-  value['id'] = key
-  console.log(value)
-  return value
-})
-console.log(objectArray);
+// const objectArray = Object.Keys(object).map(key => {
+//   const value = object[key]
+//   value['id'] = key
+//   console.log(value)
+//   return value
+// })
+// console.log(objectArray);
 
-const objectArray = [
-  {id: 'hoge', text: 'fuga'},
-  {id: 'foo', text: 'bar'},
-  {id: 'fiz', text: 'buzz'}
-];
+// const objectArray = [
+//   {id: 'hoge', text: 'fuga'},
+//   {id: 'foo', text: 'bar'},
+//   {id: 'fiz', text: 'buzz'}
+// ];
 
-const result = objectArray.filter(object => {
-  return object.id === 'hoge'
-});
-console.log(resule[0].text);
+// const result = objectArray.filter(object => {
+//   return object.id === 'hoge'
+// });
+// console.log(resule[0].text);
+
+for (let j = 0; j < 5; j++ ){
+  sum = 0;
+  console.time(`Typed for`);
+  for (let i = 0; i < len; i=(i+1)|0){
+    sum += arr[i];
+  }
+  console.timeEnd(`Typed for`);
+  console.log(sum);
+}
 
 
 
