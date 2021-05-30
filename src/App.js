@@ -77,8 +77,7 @@ import Articl from "./components/Articl";
 //   }
 //   console.timeEnd(`Typed for`);
 //   console.log(sum);
-// }
-
+// )
 
 
 
