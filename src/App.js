@@ -79,6 +79,7 @@ import Articl from "./components/Articl";
 //   console.log(sum);
 // )
 // wgit 
+//非同期処理
 
 
 
