@@ -80,6 +80,7 @@ import Articl from "./components/Articl";
 // )
 // wgit 
 //非同期処理
+//即時関数
 
 
 
