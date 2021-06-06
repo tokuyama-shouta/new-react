@@ -82,6 +82,7 @@ import Articl from "./components/Articl";
 //非同期処理
 //即時関数
 //aa
+//gazou&previw
 
 
 
