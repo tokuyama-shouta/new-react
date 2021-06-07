@@ -83,6 +83,7 @@ import Articl from "./components/Articl";
 //即時関数
 //aa
 //gazou&previw
+//コーディング規約
 
 
 
