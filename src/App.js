@@ -84,6 +84,7 @@ import Articl from "./components/Articl";
 //aa
 //gazou&previw
 //コーディング規約
+//文字列操作
 
 
 
