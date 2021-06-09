@@ -85,7 +85,7 @@ import Articl from "./components/Articl";
 //gazou&previw
 //コーディング規約
 //文字列操作
-
+//seikihyougenn1 
 
 
 function App() {
