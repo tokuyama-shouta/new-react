@@ -88,7 +88,7 @@ import Articl from "./components/Articl";
 //seikihyougenn1 
 //seikihyougen2
 
-//aa
+//aaaa
 
 
 function App() {
