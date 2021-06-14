@@ -1,6 +1,9 @@
 
 import './App.css';
 import Articl from "./components/Articl";
+import TextInput from "./components/TextInput";
+import Counter from "./components/Counter";
+import ToggleButton from "./components/ToggleButton";
 
 // const testScope = () => {
 //   if(scope === 'function') {
@@ -106,7 +109,11 @@ function App() {
         title={'新・日本一わかりやすいReact入門3'}
         content={'今日のトピックはpropsについて3'}
       />
+     <TextInput/>
+     <Counter/>
+     <ToggleButton/>
     </div>
+
   );
 }
 
