@@ -94,7 +94,7 @@ import ToggleButton from "./components/ToggleButton";
 //webApiとは
 //aaaa
 //アーキテクチャスタイル"
-
+//aaa
 
 
 function App() {
