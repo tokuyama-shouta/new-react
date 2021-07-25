@@ -10,6 +10,11 @@ const Counter = () => {
   const countDown = () => {
     setCount(prevState => prevState - 1)
   }
+
+  useEffect(() => {
+    console.log("Current count is...", count)
+  });
+
   return(
     <div>
       <p>
