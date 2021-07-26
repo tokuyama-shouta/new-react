@@ -95,6 +95,7 @@ import ToggleButton from "./components/ToggleButton";
 //aaaa
 //アーキテクチャスタイル"
 //aaa
+// useEffect API
 
 
 function App() {

@@ -14,4 +14,4 @@ const ToggleButton = () => {
   )
 }
 
-export default TpggleButton;
+export default ToggleButton;
